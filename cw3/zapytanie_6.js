@@ -1,10 +1,10 @@
 db.people.insert({
 
 	"sex" : "Male",
-	"first_name" : "Michal",
-	"last_name" : "Zaborowski",
-	"job" : "Engineer",
-	"email" : "s21843@pjwstk.edu.pl",
+	"first_name" : "Artur",
+	"last_name" : "Jonak",
+	"job" : "DevOps Mng",
+	"email" : "s23787@pjwstk.edu.pl",
 	"location" : {
 		"city" : "Warsaw",
 		"address" : {
@@ -13,9 +13,9 @@ db.people.insert({
 		}
 	},
 	"description" : "quo vadis",
-	"height" : "178.56",
-	"weight" : "78.14",
-	"birth_date" : "1996-07-29T22:35:37Z",
+	"height" : "193",
+	"weight" : "110",
+	"birth_date" : "1997-01-01T22:35:37Z",
 	"nationality" : "Poland",
 	"credit" : [
 		{
