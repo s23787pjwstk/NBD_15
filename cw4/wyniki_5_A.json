@@ -1,0 +1,367 @@
+[
+        {
+            "_id" : "AFN",
+            "totalSum" : 16755.49,
+            "avgSalary" : 5585.163333333334
+        },
+        {
+            "_id" : "IRR",
+            "totalSum" : 26504.239999999998,
+            "avgSalary" : 4417.373333333333
+        },
+        {
+            "_id" : "NPR",
+            "totalSum" : 5792.26,
+            "avgSalary" : 5792.26
+        },
+        {
+            "_id" : "ARS",
+            "totalSum" : 23242,
+            "avgSalary" : 4648.4
+        },
+        {
+            "_id" : "CAD",
+            "totalSum" : 58375.6,
+            "avgSalary" : 5306.872727272727
+        },
+        {
+            "_id" : "MGA",
+            "totalSum" : 14560.99,
+            "avgSalary" : 4853.663333333333
+        },
+        {
+            "_id" : "CUP",
+            "totalSum" : 15017.34,
+            "avgSalary" : 5005.78
+        },
+        {
+            "_id" : "CZK",
+            "totalSum" : 37156.42,
+            "avgSalary" : 4644.5525
+        },
+        {
+            "_id" : "XOF",
+            "totalSum" : 17882.05,
+            "avgSalary" : 5960.683333333333
+        },
+        {
+            "_id" : "EUR",
+            "totalSum" : 245091.47,
+            "avgSalary" : 4901.8294
+        },
+        {
+            "_id" : "RUB",
+            "totalSum" : 119749.15,
+            "avgSalary" : 4989.547916666666
+        },
+        {
+            "_id" : "SEK",
+            "totalSum" : 70840.19,
+            "avgSalary" : 5060.013571428572
+        },
+        {
+            "_id" : "XAF",
+            "totalSum" : 14094.66,
+            "avgSalary" : 4698.22
+        },
+        {
+            "_id" : "BOB",
+            "totalSum" : 5263.3,
+            "avgSalary" : 5263.3
+        },
+        {
+            "_id" : "YER",
+            "totalSum" : 13712.5,
+            "avgSalary" : 4570.833333333333
+        },
+        {
+            "_id" : "EGP",
+            "totalSum" : 5579.3,
+            "avgSalary" : 5579.3
+        },
+        {
+            "_id" : "BYR",
+            "totalSum" : 5095.79,
+            "avgSalary" : 5095.79
+        },
+        {
+            "_id" : "AMD",
+            "totalSum" : 24609.33,
+            "avgSalary" : 4921.866
+        },
+        {
+            "_id" : "MMK",
+            "totalSum" : 4629.42,
+            "avgSalary" : 4629.42
+        },
+        {
+            "_id" : "ETB",
+            "totalSum" : 5436.11,
+            "avgSalary" : 5436.11
+        },
+        {
+            "_id" : "GBP",
+            "totalSum" : 6149.19,
+            "avgSalary" : 6149.19
+        },
+        {
+            "_id" : "NOK",
+            "totalSum" : 4773.66,
+            "avgSalary" : 4773.66
+        },
+        {
+            "_id" : "NGN",
+            "totalSum" : 24946.23,
+            "avgSalary" : 4157.705
+        },
+        {
+            "_id" : "UZS",
+            "totalSum" : 3573.03,
+            "avgSalary" : 3573.03
+        },
+        {
+            "_id" : "VND",
+            "totalSum" : 36160.26,
+            "avgSalary" : 4520.0325
+        },
+        {
+            "_id" : "BGN",
+            "totalSum" : 21200.88,
+            "avgSalary" : 5300.22
+        },
+        {
+            "_id" : "PLN",
+            "totalSum" : 90770.78,
+            "avgSalary" : 5042.821111111111
+        },
+        {
+            "_id" : "NZD",
+            "totalSum" : 5328.46,
+            "avgSalary" : 5328.46
+        },
+        {
+            "_id" : "JPY",
+            "totalSum" : 60944.74,
+            "avgSalary" : 5078.7283333333335
+        },
+        {
+            "_id" : "KRW",
+            "totalSum" : 13379.82,
+            "avgSalary" : 6689.91
+        },
+        {
+            "_id" : "BWP",
+            "totalSum" : 4076.29,
+            "avgSalary" : 4076.29
+        },
+        {
+            "_id" : "MXN",
+            "totalSum" : 50229,
+            "avgSalary" : 5022.9
+        },
+        {
+            "_id" : "MYR",
+            "totalSum" : 4781.12,
+            "avgSalary" : 4781.12
+        },
+        {
+            "_id" : "HNL",
+            "totalSum" : 16514.59,
+            "avgSalary" : 5504.863333333334
+        },
+        {
+            "_id" : "VUV",
+            "totalSum" : 6418.27,
+            "avgSalary" : 6418.27
+        },
+        {
+            "_id" : "SRD",
+            "totalSum" : 5286.68,
+            "avgSalary" : 5286.68
+        },
+        {
+            "_id" : "KYD",
+            "totalSum" : 3760.89,
+            "avgSalary" : 3760.89
+        },
+        {
+            "_id" : "ZWL",
+            "totalSum" : 5792.17,
+            "avgSalary" : 5792.17
+        },
+        {
+            "_id" : "BRL",
+            "totalSum" : 49632.020000000004,
+            "avgSalary" : 4512.001818181819
+        },
+        {
+            "_id" : "CNY",
+            "totalSum" : 470700.38,
+            "avgSalary" : 4954.740842105263
+        },
+        {
+            "_id" : "DOP",
+            "totalSum" : 20674.739999999998,
+            "avgSalary" : 5168.6849999999995
+        },
+        {
+            "_id" : "MWK",
+            "totalSum" : 3574.42,
+            "avgSalary" : 3574.42
+        },
+        {
+            "_id" : "PKR",
+            "totalSum" : 18938,
+            "avgSalary" : 4734.5
+        },
+        {
+            "_id" : "PEN",
+            "totalSum" : 18644.94,
+            "avgSalary" : 4661.235
+        },
+        {
+            "_id" : "KZT",
+            "totalSum" : 3788.95,
+            "avgSalary" : 3788.95
+        },
+        {
+            "_id" : "VEF",
+            "totalSum" : 8333.28,
+            "avgSalary" : 4166.64
+        },
+        {
+            "_id" : "RSD",
+            "totalSum" : 4276.56,
+            "avgSalary" : 4276.56
+        },
+        {
+            "_id" : "PYG",
+            "totalSum" : 4874.69,
+            "avgSalary" : 4874.69
+        },
+        {
+            "_id" : "MAD",
+            "totalSum" : 3818.85,
+            "avgSalary" : 3818.85
+        },
+        {
+            "_id" : "RWF",
+            "totalSum" : 4632.88,
+            "avgSalary" : 4632.88
+        },
+        {
+            "_id" : "MNT",
+            "totalSum" : 21715.61,
+            "avgSalary" : 5428.9025
+        },
+        {
+            "_id" : "TZS",
+            "totalSum" : 7052.370000000001,
+            "avgSalary" : 3526.1850000000004
+        },
+        {
+            "_id" : "ISK",
+            "totalSum" : 4316.41,
+            "avgSalary" : 4316.41
+        },
+        {
+            "_id" : "IDR",
+            "totalSum" : 323922.59,
+            "avgSalary" : 4907.918030303031
+        },
+        {
+            "_id" : "IQD",
+            "totalSum" : 4269.39,
+            "avgSalary" : 4269.39
+        },
+        {
+            "_id" : "COP",
+            "totalSum" : 19746.73,
+            "avgSalary" : 4936.6825
+        },
+        {
+            "_id" : "UAH",
+            "totalSum" : 40471.840000000004,
+            "avgSalary" : 5058.9800000000005
+        },
+        {
+            "_id" : "CDF",
+            "totalSum" : 12228.8,
+            "avgSalary" : 6114.4
+        },
+        {
+            "_id" : "USD",
+            "totalSum" : 74680.98,
+            "avgSalary" : 4978.732
+        },
+        {
+            "_id" : "TJS",
+            "totalSum" : 4087.71,
+            "avgSalary" : 4087.71
+        },
+        {
+            "_id" : "ILS",
+            "totalSum" : 16295.49,
+            "avgSalary" : 5431.83
+        },
+        {
+            "_id" : "LYD",
+            "totalSum" : 8764.99,
+            "avgSalary" : 4382.495
+        },
+        {
+            "_id" : "CLP",
+            "totalSum" : 21008.95,
+            "avgSalary" : 5252.2375
+        },
+        {
+            "_id" : "GTQ",
+            "totalSum" : 5806.3,
+            "avgSalary" : 5806.3
+        },
+        {
+            "_id" : "MKD",
+            "totalSum" : 3835.05,
+            "avgSalary" : 3835.05
+        },
+        {
+            "_id" : "ALL",
+            "totalSum" : 3325.48,
+            "avgSalary" : 3325.48
+        },
+        {
+            "_id" : "ZMW",
+            "totalSum" : 5569.56,
+            "avgSalary" : 5569.56
+        },
+        {
+            "_id" : "XPF",
+            "totalSum" : 4759.07,
+            "avgSalary" : 4759.07
+        },
+        {
+            "_id" : "NIO",
+            "totalSum" : 9971.28,
+            "avgSalary" : 4985.64
+        },
+        {
+            "_id" : "PHP",
+            "totalSum" : 118606.28,
+            "avgSalary" : 4941.928333333333
+        },
+        {
+            "_id" : "ZAR",
+            "totalSum" : 11790.92,
+            "avgSalary" : 3930.306666666667
+        },
+        {
+            "_id" : "THB",
+            "totalSum" : 23021.96,
+            "avgSalary" : 4604.392
+        },
+        {
+            "_id" : "HRK",
+            "totalSum" : 24354.82,
+            "avgSalary" : 4870.964
+        }
+]
