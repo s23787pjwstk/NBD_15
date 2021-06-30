@@ -1,0 +1,93 @@
+﻿[
+  {
+    "actors": {
+      "identity": 182,
+      "labels": [
+        "Person"
+      ],
+      "properties": {
+        "name": "Chris Evans"
+      }
+    },
+    "p": {
+      "identity": 256,
+      "start": 182,
+      "end": 179,
+      "type": "ACTED_IN",
+      "properties": {
+        "roles": [
+          "Captain America "
+        ]
+      }
+    },
+    "movie": {
+      "identity": 179,
+      "labels": [
+        "Movie"
+      ],
+      "properties": {
+        "title": "Captain America: The First Avenger",
+        "tagline": "When patriots become heroes",
+        "released": 2011
+      }
+    }
+  },
+  {
+    "actors": {
+      "identity": 181,
+      "labels": [
+        "Person"
+      ],
+      "properties": {
+        "name": "Christopher Markus"
+      }
+    },
+    "p": {
+      "identity": 258,
+      "start": 181,
+      "end": 179,
+      "type": "WROTE",
+      "properties": {}
+    },
+    "movie": {
+      "identity": 179,
+      "labels": [
+        "Movie"
+      ],
+      "properties": {
+        "title": "Captain America: The First Avenger",
+        "tagline": "When patriots become heroes",
+        "released": 2011
+      }
+    }
+  },
+  {
+    "actors": {
+      "identity": 180,
+      "labels": [
+        "Person"
+      ],
+      "properties": {
+        "name": "Joe Johnston"
+      }
+    },
+    "p": {
+      "identity": 257,
+      "start": 180,
+      "end": 179,
+      "type": "DIRECTED",
+      "properties": {}
+    },
+    "movie": {
+      "identity": 179,
+      "labels": [
+        "Movie"
+      ],
+      "properties": {
+        "title": "Captain America: The First Avenger",
+        "tagline": "When patriots become heroes",
+        "released": 2011
+      }
+    }
+  }
+]
