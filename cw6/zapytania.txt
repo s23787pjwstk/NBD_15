@@ -1,0 +1,53 @@
+//1
+MATCH (t:town {name: 'Darjeeling'}),(p:peak{name:'Sandakphu'}), a = allShortestPaths((t)-[*]-(p))
+RETURN a
+
+//2
+MATCH (t:town {name: 'Darjeeling'}),(p:peak{name:'Sandakphu'}), a = allShortestPaths((t)-[*]-(p))
+WHERE ALL(rel IN relationships(a) WHERE rel.winter = "true")
+RETURN a
+
+//3
+MATCH (a:town {name: 'Darjeeling'}),(b:peak{name:'Sandakphu'}), p =((a)-[*..5]-(b)) 
+WITH reduce(distance = 0, rel in relationships(p) | distance + rel.distance) as distance , p 
+RETURN p,distance order by distance
+
+//4
+MATCH (a:Airport)-[r:ORIGIN]-()
+RETURN a, Count(r)
+ORDER BY COUNT(r) DESC
+
+//5
+MATCH path = (origin:Airport { name:"LAX" })<-[:ORIGIN]-(:Flight)<-[:ORIGIN|DESTINATION*..4]->(dest:Airport)
+WHERE dest.name <> "LAX" AND REDUCE(
+    cost = 0,
+    flight IN [n IN nodes(path) WHERE 'Flight' IN labels(n)] |
+    cost + [(flight)<-[:ASSIGN]-(ticket:Ticket {class: "economy"}) | ticket.price][0]
+) < 3000
+RETURN DISTINCT dest
+
+//6
+MATCH f = (l:Airport {name: "LAX"})<-[:ORIGIN]-(:Flight)-[*..6]-(:Flight)-[:DESTINATION]->(d:Airport {name: "DAY"})
+RETURN f, reduce(
+    c = 0, 
+    flight IN [l IN nodes(f) WHERE 'Flight' IN labels(l)] |
+    c + [(flight)<-[:ASSIGN]-(ticket:Ticket {class: "economy"}) | ticket.price][0]
+) as cost
+ORDER BY cost ASC
+
+//7
+MATCH connection = (start:Airport { name:"LAX" })<-[tmp1:ORIGIN]-(:Flight)-[tmp2:ORIGIN|DESTINATION*..5]->(destination:Airport {name: "DAY"})
+RETURN connection, REDUCE(sum = 0, x IN [node IN NODES(connection) WHERE 'Flight' IN LABELS(node)] | sum + [(x)<-[:ASSIGN]-(ticket) | ticket.price][0]) as cost
+ORDER BY cost asc LIMIT 1
+
+//8
+MATCH connection = (start:Airport { name:"LAX" })<-[tmp1:ORIGIN]-(:Flight)-[tmp2:ORIGIN|DESTINATION*..5]->(destination:Airport {name: "DAY"})
+RETURN connection, REDUCE(sum = 0, x IN [node IN NODES(connection) WHERE 'Flight' IN LABELS(node)] | sum + [(x)<-[:ASSIGN]-(ticket  {class: 'business'}) | ticket.price][0]) as cost
+ORDER BY cost asc LIMIT 1
+
+
+
+
+
+
+
