@@ -1,0 +1,45 @@
+//1
+MATCH (people: Person) RETURN people
+
+//2
+MATCH (hugo:Person {name: "Hugo Weaving"})-[:ACTED_IN]->(hugoWeavingMovies) 
+RETURN hugo, hugoWeavingMovies
+
+//3
+MATCH (hugo:Person {name:"Hugo Weaving"})-[:ACTED_IN]->(m)<-[:DIRECTED]-(directors: Person) 
+RETURN directors, m
+
+//4
+MATCH (hugo:Person {name: "Hugo Weaving"})-[:ACTED_IN]->(m)<-[:ACTED_IN]-(actors) 
+RETURN actors
+
+//5
+MATCH (people:Person)-[:ACTED_IN]-(:Movie {title: "The Matrix"})  RETURN people
+
+//6
+MATCH (n:Person)-[:ACTED_IN]-(acted) with n, count(acted) as sum
+where sum > 0
+return n, sum
+
+//7
+MATCH (person:Person)-[:WROTE]->(movie:Movie)<-[:DIRECTED]-(person) 
+return person, movie
+
+//8
+MATCH (hugo:Person {name: "Hugo Weaving"})-[:ACTED_IN]->(movie)<-[:ACTED_IN]-(keanu:Person {name: "Keanu Reeves"})
+RETURN hugo, keanu, movie;
+
+//9
+CREATE (CapitanAmerica:Movie {title:"Captain America: The First Avenger", released:2011, tagline:"When patriots become heroes"})
+CREATE (Joe:Person {name:"Joe Johnston"})
+CREATE (Christopher:Person {name:"Christopher Markus"})
+CREATE (Chris:Person {name:"Chris Evans"})
+CREATE
+ 	(Chris)-[:ACTED_IN {roles:["Captain America "]}]->(CapitanAmerica),
+  	(Joe)-[:DIRECTED]->(CapitanAmerica),
+  	(Christopher)-[:WROTE]->(CapitanAmerica)
+WITH CapitanAmerica as m
+MATCH (a)- ->(m) RETURN a, m
+
+Match (actors:Person)-[p]->(movie:Movie {title:"Captain America: The First Avenger"})
+RETURN actors,p,movie
