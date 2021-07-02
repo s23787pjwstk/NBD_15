@@ -1,0 +1,11 @@
+X-Riak-Vclock: a85hYGBgzGDKBVI8ypz/fpZ9irdjYFAXzGBKZMxjZZAtzrzBlwUA
+Vary: Accept-Encoding
+Server: MochiWeb/1.1 WebMachine/1.10.9 (cafe not found)
+Link: </buckets/s23787>; rel="up"
+Last-Modified: Thu, 25 Jun 2021 19:12:29 GMT
+ETag: "FtvoHotHFCorSIpCciKku"
+Date: Thu, 25 Jun 2021 19:17:16 GMT
+Content-Type: application/json
+Content-Length: 37
+
+{"pracownik": "Robert Lewandowski"}%    
